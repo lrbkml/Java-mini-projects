@@ -23,8 +23,8 @@ class Game{
         System.out.printf("correct, you have taken %d attempts to guess the number right",numberofguess);
     return true;
                 }
-        else if ( inputnumber<number) {System.out.println("too low");}
-        else if (inputnumber>number) {System.out.println("too high");}
+        else if ( inputnumber<number) {System.out.println("low , try a higher value");}
+        else if (inputnumber>number) {System.out.println("high, try a lower value");}
 return false;
     }
 
